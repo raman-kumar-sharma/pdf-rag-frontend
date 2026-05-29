@@ -8,6 +8,10 @@ export interface Document {
   created_at?: string;
 }
 
+export interface DocumentsResponse {
+  documents: Document[];
+}
+
 export interface UploadResponse {
   doc_id: string;
   filename: string;
